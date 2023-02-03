@@ -110,7 +110,7 @@ int Brain::FeedForward(float inputs[])
 	output = Sigmoid(output);
 //	std::cout << "result of sigmoid activation: " << output << std::endl;
 
-	if (output > 0.5)
+	if (output > 0.35)
 		return 1;
 	else
 		return 0;
